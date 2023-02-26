@@ -15,5 +15,7 @@
     - Homework_02
     - Homework_03
 - Lecture
-    - Lecture_01 
+    - Lecture_01 (with Exemples)
+    - Lecture_02 (with Exemples)
 - Seminar
+- IndependentWork 
