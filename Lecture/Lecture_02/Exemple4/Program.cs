@@ -4,7 +4,7 @@
     if(arg2>result) result=arg2;
     if(arg3>result) result=arg3;
     return result;
-} //           0  1 2  3 4  5 6  7 8
+} //       0  1 2  3 4  5 6  7 8
 int[] a = {15,2,53,4,95,6,73,8,19};
 
 
