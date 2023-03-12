@@ -5,8 +5,8 @@ double Ac(string message){
     double result = Convert.ToDouble(readInput);
     return result;
 }
-double[] Gen(double length, double min, double max){
-    double[] array = new double[length];
+double[] Gen(int length, int min, int max){
+    int[] array = new int[length];
     Random random = new Random();
     for(int i = 0; i<length; i++){
         array[i] = random.Next(min, max+1);
@@ -27,10 +27,10 @@ double Search1(double[] Ar){
     for(int i = 1; i<length; i++){
         if(Ar[i]<min)min=Ar[i];
     }
-    return min;
-}
-double Search2(double[] Ar){
-    double length = Ar.Length;
+    return min;                       //    !!!         !!!            !!!             !!!             !!!
+}                                     //Проблема: т.к. нужна программа для вещ. чисел, не могу понять (запутался в
+double Search2(double[] Ar){          // подборе вариантов), где именно нужно указать double а где int
+    int length = Ar.Length;                  
     double max = Ar[0];
     for(int i = 1; i<length; i++){
         if(Ar[i]>max)max=Ar[i];
